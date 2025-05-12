@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default"
-title                    : "Zhiqi Ai"
+title                    : "Zhiqi"
 title_separator          : "-"
 name                     : &name "Zhiqi"
 description              : &description "Ph.D. Candidate at Shanghai University"
