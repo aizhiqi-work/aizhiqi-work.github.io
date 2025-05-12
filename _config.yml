@@ -22,7 +22,7 @@ repository               : "aizhiqi-work/aizhiqi-work.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "files/WechatIMG203.jpg"
+  avatar           : "/files/WechatIMG203.jpg"
   name             : "Zhiqi"
   pronouns         : # example: "she/her"  
   bio              : "Ph.D. Candidate at Shanghai University"
@@ -46,7 +46,7 @@ author:
   # bitbucket        : # Username - Update with your username on the site
   # codepen          : # Username
   # dribbble         : # Username
-  github           : "https://github.com/aizhiqi-work"
+  github           : "aizhiqi-work"
   # kaggle           : # Username  
   # stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
@@ -75,7 +75,7 @@ author:
   # xing             : # Username
   # youtube          : # Username
   # zhihu            : # Username
-  douyin            : #hahhaha
+  # douyin            : #hahhaha
 
 # Publication Category - The following the list of publication categories and their headings
 publication_category:
