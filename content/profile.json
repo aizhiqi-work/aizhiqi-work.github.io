@@ -1,0 +1,16 @@
+{
+  "name": "Zhiqi Ai",
+  "role": "Ph.D. Student",
+  "institution": "Shanghai University",
+  "location": "Shanghai, China",
+  "email": "aizhiqi-work@shu.edu.cn",
+  "portrait": "files/WechatIMG203.jpg",
+  "scholar": "https://scholar.google.com/citations?user=xQsSstkAAAAJ&hl=en",
+  "github": "https://github.com/aizhiqi-work",
+  "orcid": "https://orcid.org/0009-0005-1034-9972",
+  "cv": null,
+  "intro": "I am a Ph.D. student at Shanghai University, working on speech and audio intelligence.",
+  "research": "My research spans user-defined keyword spotting, speaker recognition, speech bandwidth extension, and speech language models. I also work on embodied audio, with an interest in how environments and device geometry shape the sound we hear.",
+  "education": [{ "degree": "Ph.D. Student", "institution": "Shanghai University", "period": "Current", "description": "Research in speech and audio intelligence, and embodied audio." }],
+  "updated": "October 2026"
+}

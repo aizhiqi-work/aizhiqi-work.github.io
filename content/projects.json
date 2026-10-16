@@ -1,0 +1,4 @@
+[
+  { "id": "acoustic-agent", "name": "Acoustic Agent", "eyebrow": "Environment acoustics", "description": "An indoor acoustic simulation engine and WebGL workbench for room impulse response generation. Parametric rooms, floor plans, microphone arrays, and moving sources share one research workflow.", "tags": ["Room impulse responses", "Spatial audio", "Simulation"], "url": "https://github.com/aizhiqi-work/acoustic-agent", "linkLabel": "Explore project", "diagram": "room" },
+  { "id": "mesh2atf", "name": "Mesh2ATF", "eyebrow": "Device acoustics", "description": "From device meshes to multichannel acoustic transfer functions. A geometry-aware simulation workflow for microphone arrays on devices, robot heads, and smart glasses.", "tags": ["Acoustic transfer functions", "Microphone arrays", "BEM"], "url": "https://github.com/aizhiqi-work/mesh2atf", "linkLabel": "Explore project", "diagram": "device" }
+]

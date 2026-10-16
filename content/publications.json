@@ -1,0 +1,82 @@
+[
+  {
+    "id": "dma-kws", "category": "kws", "short": "DMA-KWS", "year": 2026,
+    "title": "Effective User-Defined Keyword Spotting With Dual-Stage Matching, Multi-Modal Enrollment, and Continual Adaptation",
+    "authors": ["Zhiqi Ai", "Han Cheng", "Shiyi Mu", "Xinnuo Li", "Yongjin Zhou", "Shugong Xu"],
+    "venue": "IEEE TASLP", "venueFull": "IEEE Transactions on Audio, Speech and Language Processing", "type": "Journal",
+    "description": "Dual-stage matching, multimodal enrollment, and lightweight adaptation for personalized keyword spotting.",
+    "links": { "Paper": "https://doi.org/10.1109/TASLPRO.2026.3695299", "arXiv": "https://arxiv.org/abs/2605.22120", "Code": "https://github.com/aizhiqi-work/DMA-KWS" },
+    "citation": { "type": "article", "key": "ai2026dmakws", "journal": "IEEE Transactions on Audio, Speech and Language Processing", "volume": "34", "pages": "3214--3227", "doi": "10.1109/TASLPRO.2026.3695299" }
+  },
+  {
+    "id": "ds-kws", "category": "kws", "short": "DS-KWS", "year": 2026,
+    "title": "Dual Data Scaling for Robust Two-Stage User-Defined Keyword Spotting",
+    "authors": ["Zhiqi Ai", "Han Cheng", "Yuxin Wang", "Shiyi Mu", "Yongjin Zhou", "Shugong Xu"],
+    "venue": "ICASSP", "venueFull": "IEEE International Conference on Acoustics, Speech and Signal Processing", "type": "Conference",
+    "description": "Scaling acoustic data and phoneme-matching anchors for robust user-defined wake words.",
+    "links": { "Paper": "https://doi.org/10.1109/ICASSP55912.2026.11460636", "arXiv": "https://arxiv.org/abs/2510.10740", "Dataset": "https://github.com/aizhiqi-work/GigaPhrase-1000" },
+    "citation": { "type": "inproceedings", "key": "ai2026dskws", "booktitle": "2026 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)", "doi": "10.1109/ICASSP55912.2026.11460636" }
+  },
+  {
+    "id": "mm-kws", "category": "kws", "short": "MM-KWS", "year": 2024,
+    "title": "MM-KWS: Multi-modal Prompts for Multilingual User-defined Keyword Spotting",
+    "authors": ["Zhiqi Ai", "Zhiyong Chen", "Shugong Xu"],
+    "venue": "Interspeech", "venueFull": "Interspeech 2024", "type": "Conference",
+    "description": "Text and speech enrollment for multilingual, user-defined keyword spotting.",
+    "links": { "Paper": "https://www.isca-archive.org/interspeech_2024/ai24_interspeech.html", "PDF": "https://www.isca-archive.org/interspeech_2024/ai24_interspeech.pdf", "Code": "https://github.com/aizhiqi-work/MM-KWS" },
+    "citation": { "type": "inproceedings", "key": "ai24_interspeech", "booktitle": "Interspeech 2024", "pages": "2415--2419", "doi": "10.21437/Interspeech.2024-10" }
+  },
+  {
+    "id": "hybrid-enrollment", "category": "speaker", "short": "Short-duration SV", "year": 2026,
+    "title": "Stabilizing Short Duration Speaker Verification through Neural Re-scoring with Hybrid Enrollment",
+    "authors": ["Zhiqi Ai", "Han Cheng", "Shiyi Mu", "Zhiyong Chen", "Yongjin Zhou", "Shugong Xu"],
+    "venue": "Interspeech", "venueFull": "Interspeech 2026 (acceptance noted in the author-submitted preprint)", "type": "Conference",
+    "description": "Hybrid enrollment and neural re-scoring for reliable verification from short speech segments.",
+    "links": { "Paper": "https://arxiv.org/abs/2606.16115", "PDF": "https://arxiv.org/pdf/2606.16115" },
+    "citation": { "type": "misc", "key": "ai2026hybridenrollment", "eprint": "2606.16115", "archivePrefix": "arXiv", "note": "Accepted by Interspeech 2026" }
+  },
+  {
+    "id": "voxaging", "category": "speaker", "short": "VoxAging", "year": 2025,
+    "title": "VoxAging: Continuously Tracking Speaker Aging with a Large-Scale Longitudinal Dataset in English and Mandarin",
+    "authors": ["Zhiqi Ai", "Meixuan Bao", "Zhiyong Chen", "Zhi Yang", "Xinnuo Li", "Shugong Xu"],
+    "venue": "Interspeech", "venueFull": "Interspeech 2025", "type": "Conference",
+    "description": "A longitudinal dataset for studying speaker aging and its effects on speaker verification.",
+    "links": { "Paper": "https://www.isca-archive.org/interspeech_2025/ai25_interspeech.html", "Code": "https://github.com/aizhiqi-work/voxaging", "Dataset": "https://huggingface.co/datasets/ZhiqiAi/voxaging" },
+    "citation": { "type": "inproceedings", "key": "ai25_interspeech", "booktitle": "Interspeech 2025", "pages": "3648--3652", "doi": "10.21437/Interspeech.2025-57" }
+  },
+  {
+    "id": "robust-speaker", "category": "speaker", "short": "Robust speaker recognition", "year": 2025,
+    "title": "Towards Robust Speaker Recognition against Intrinsic Variation with Foundation Model Few-shot Tuning and Effective Speech Synthesis",
+    "authors": ["Zhiyong Chen", "Shuhang Wu", "Xinnuo Li", "Zhiqi Ai", "Shugong Xu"],
+    "venue": "Interspeech", "venueFull": "Interspeech 2025", "type": "Conference",
+    "description": "Few-shot tuning and speech synthesis to address aging and emotional variation in speaker recognition.",
+    "links": { "Paper": "https://www.isca-archive.org/interspeech_2025/chen25_interspeech.html", "PDF": "https://www.isca-archive.org/interspeech_2025/chen25_interspeech.pdf" },
+    "citation": { "type": "inproceedings", "key": "chen25_interspeech", "booktitle": "Interspeech 2025", "pages": "1118--1122", "doi": "10.21437/Interspeech.2025-42" }
+  },
+  {
+    "id": "srpl", "category": "speaker", "short": "Open-set speaker identification", "year": 2024,
+    "title": "Enhancing Open-Set Speaker Identification Through Rapid Tuning With Speaker Reciprocal Points and Negative Sample",
+    "authors": ["Zhiyong Chen", "Zhiqi Ai", "Xinnuo Li", "Shugong Xu"],
+    "venue": "IEEE SLT", "venueFull": "2024 IEEE Spoken Language Technology Workshop", "type": "Conference",
+    "description": "Rapid enrollment-time tuning for open-set speaker identification.",
+    "links": { "Paper": "https://doi.org/10.1109/SLT61566.2024.10832359", "arXiv": "https://arxiv.org/abs/2409.15742" },
+    "citation": { "type": "inproceedings", "key": "chen2024srpl", "booktitle": "2024 IEEE Spoken Language Technology Workshop (SLT)", "pages": "1144--1149", "doi": "10.1109/SLT61566.2024.10832359" }
+  },
+  {
+    "id": "bdr-bwe", "category": "bwe", "short": "BDR-BWE", "year": null,
+    "title": "Bridge, Distill, Refine: High-Fidelity One-Step Generation for Multi-Bandwidth Speech Extension",
+    "authors": [], "venue": "Under review", "venueFull": "Manuscript under review", "type": "Under review",
+    "description": "Speech bandwidth extension with a public listening demo across multiple input bandwidths.",
+    "links": { "Listening demo": "https://aizhiqi-work.github.io/bdr-bwe-demo/", "Demo repository": "https://github.com/aizhiqi-work/bdr-bwe-demo" },
+    "citation": null
+  },
+  {
+    "id": "ptc-bias", "category": "speechllm", "short": "PTC-Bias", "year": 2026,
+    "title": "PTC-Bias: Phoneme-Level Temporal Competition for Bias Retrieval and Post-Decoding Correction in Speech LLMs",
+    "authors": ["Zhiqi Ai", "Han Cheng", "Shiyi Mu", "Yongjin Zhou", "Shugong Xu"],
+    "venue": "arXiv", "venueFull": "arXiv:2609.28727", "type": "Preprint",
+    "description": "Phoneme-level retrieval and selective correction for contextual biasing in speech language models.",
+    "links": { "Paper": "https://arxiv.org/abs/2609.28727", "Code": "https://github.com/aizhiqi-work/PTC-Bias" },
+    "citation": { "type": "misc", "key": "ai2026ptcbias", "eprint": "2609.28727", "archivePrefix": "arXiv" }
+  }
+]
