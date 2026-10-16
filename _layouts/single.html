@@ -36,6 +36,10 @@ layout: default
         
         {% if page.collection == 'teaching' %}
           <p> {{ page.type }}, <i>{{ page.venue }}</i>, {{ page.date | default: "1900-01-01" | date: "%Y" }} </p>
+        {% elsif page.status == 'under-review' %}
+          <p><i>Manuscript under review</i></p>
+        {% elsif page.status == 'preprint' %}
+          <p><i>{{ page.venue }}</i> (preprint), {{ page.date | date: "%Y" }}</p>
         {% elsif page.venue and page.date %}
           <p>Published in <i>{{ page.venue }}</i>, {{ page.date | default: "1900-01-01" | date: "%Y" }} </p>
         {% elsif page.date %}

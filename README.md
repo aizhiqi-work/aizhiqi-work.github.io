@@ -1,47 +1,28 @@
-# Zhiqi Ai — academic homepage
+# Zhiqi Ai — Academic Pages
 
-Live website: **https://aizhiqi-work.github.io/**
+Website: https://aizhiqi-work.github.io/
 
-A responsive academic homepage organized around speech and audio intelligence, embodied audio, and interdisciplinary collaborations.
+This website uses the repository's original [Academic Pages](https://academicpages.github.io/) Jekyll template, including its default typography, colors, layouts, navigation, author sidebar, and footer. The avatar is capped at 128 px to retain the author's requested smaller portrait.
 
-## Maintain content
+## Edit content
 
-Edit the JSON files, then regenerate the homepage:
+- `_config.yml`: name, author profile, contact links, affiliation, and research categories.
+- `_data/navigation.yml`: the standard About / Publications / Projects / CV navigation.
+- `_pages/about.md`: the homepage and research introduction.
+- `_publications/`: one Markdown file per paper; `category` determines the research group. Mark manuscripts `status: under-review` or `status: preprint` as appropriate.
+- `_portfolio/`: Acoustic Agent and Mesh2ATF project descriptions.
+- `_pages/cv.md`: education, research background, and the CV contact link.
+- `files/bibtex/`: downloadable citations.
 
-| File | Contents |
-| --- | --- |
-| content/profile.json | Name, affiliation, bio, email, portrait, education, CV link |
-| content/publications.json | Keyword spotting, speaker modeling, BWE, Speech LLM papers |
-| content/projects.json | Acoustic Agent and Mesh2ATF |
-| content/collaborations.json | Wireless and computer vision collaborations |
-| assets/homepage/style.css | Layout and visual styling |
-| assets/homepage/app.js | Publication search, category filters, citation copying |
+GitHub Pages builds Jekyll from the `master` branch at the repository root. There is no custom HTML/CSS homepage and no `.nojekyll` file. The original template's MIT license and attribution are retained.
 
-```sh
-node scripts/build-homepage.mjs
-node scripts/check-homepage.mjs
-node scripts/preview-homepage.mjs
-```
+For local development, use the standard template workflow: install Ruby and Bundler, run `bundle install`, then `bundle exec jekyll serve`.
 
-Preview: http://127.0.0.1:4173/
+## Content to complete gradually
 
-No package installation or Ruby environment is required for this homepage. The committed index.html includes all content so papers and navigation remain accessible without JavaScript. JavaScript adds filtering, search, citation copying, and section navigation.
+1. Doctoral school/department, advisor, and start year; previous degrees and relevant experience.
+2. A real CV PDF in `files/`; until supplied, CV links lead to a contact request.
+3. BDR-BWE author list and manuscript/citation link. Its title and listening demo come from the public project; under-review status was supplied by the author.
+4. Further publications and project materials. The next-generation simulator is omitted until the author is ready.
 
-## Publishing
-
-GitHub Pages serves master from the repository root. Keep .nojekyll and the generated index.html committed. Push ordinary commits to master; no force push is needed.
-
-The earlier Academic Pages template and its MIT license are retained. The current homepage uses index.html, assets/homepage/, and content/; the old Jekyll sample pages are not generated or linked by the new homepage.
-
-## Next content to add
-
-- Confirm the doctoral school/department, advisor, and start year. The existing affiliation, portrait, and email were retained from this repository; the role was updated to the user-confirmed Ph.D. Student.
-- Add prior degrees, research visits, internships, and awards as desired.
-- Add a real CV PDF to files/ and set cv in content/profile.json, for example "files/Zhiqi_Ai_CV.pdf". Until then, the site provides an email request link rather than a broken PDF download.
-- Complete the BDR-BWE author list, manuscript link, and citation once supplied. The title comes from the public listening-demo repository; its under-review status was provided by the author.
-- Add additional publications and project figures incrementally. This first version is a selected list, with a link to the full Google Scholar profile.
-- Add the next-generation simulator when the author is ready. It is intentionally omitted from the first version.
-
-## Publication sources
-
-Publication links point to ISCA, IEEE DOI records, or author-submitted arXiv papers. Formal publication years are used rather than preprint years. Interspeech 2026 acceptance of the short-duration speaker verification paper is documented in its arXiv comments; its BibTeX remains the available arXiv record until formal proceedings metadata is supplied. No citation counts are copied or automatically scraped from Google Scholar.
+Unused template demonstration pages are excluded from the build. Sample publications and projects were replaced with the author's actual work.

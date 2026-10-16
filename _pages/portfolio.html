@@ -1,14 +1,13 @@
 ---
-layout: archive
-title: "Portfolio"
-permalink: /portfolio/
+layout: "archive"
+title: "Projects"
+permalink: "/projects/"
 author_profile: true
+redirect_from: ["/portfolio/"]
 ---
 
-{% include base_path %}
-
-
+<h2>Embodied Audio</h2>
+<p>Acoustic simulation for environments, devices, and microphone arrays.</p>
 {% for post in site.portfolio %}
   {% include archive-single.html %}
 {% endfor %}
-

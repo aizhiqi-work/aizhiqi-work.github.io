@@ -1,0 +1,11 @@
+{% for category in site.publication_category %}
+  {% if category[1].group == include.group %}
+    {% assign works = site.publications | where: "category", category[0] | sort: "date" | reverse %}
+    {% if works.size > 0 %}
+      <h3>{{ category[1].title }}</h3>
+      {% for post in works %}
+        {% include archive-single.html %}
+      {% endfor %}
+    {% endif %}
+  {% endif %}
+{% endfor %}

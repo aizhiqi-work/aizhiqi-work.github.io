@@ -9,10 +9,10 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default"
-title                    : "Zhiqi"
+title                    : "Zhiqi Ai"
 title_separator          : "-"
-name                     : &name "Zhiqi"
-description              : &description "Ph.D. Candidate at Shanghai University"
+name                     : &name "Zhiqi Ai"
+description              : &description "Ph.D. Student at Shanghai University"
 url                      : https://aizhiqi-work.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io" or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "aizhiqi-work/aizhiqi-work.github.io"
@@ -23,9 +23,9 @@ repository               : "aizhiqi-work/aizhiqi-work.github.io"
 author:
   # Biographic information
   avatar           : "../files/WechatIMG203.jpg"
-  name             : "Zhiqi"
+  name             : "Zhiqi Ai"
   pronouns         : # example: "she/her"  
-  bio              : "Ph.D. Candidate at Shanghai University"
+  bio              : "Ph.D. Student at Shanghai University"
   location         : "Shanghai"
   employer         : "Shanghai University"
   uri              : # URL
@@ -79,12 +79,24 @@ author:
 
 # Publication Category - The following the list of publication categories and their headings
 publication_category:
-  books:
-    title: 'Books'
-  manuscripts:
-    title: 'Journal Articles'    
-  conferences:
-    title: 'Conference Papers'
+  kws:
+    title: 'Keyword Spotting & Wake Words'
+    group: speech
+  speaker:
+    title: 'Speaker Recognition & Modeling'
+    group: speech
+  bwe:
+    title: 'Speech Bandwidth Extension'
+    group: speech
+  speechllm:
+    title: 'Speech Language Models'
+    group: speech
+  wireless:
+    title: 'Wireless Positioning'
+    group: collaborations
+  vision:
+    title: 'Computer Vision'
+    group: collaborations
 
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
@@ -160,6 +172,30 @@ include:
   - _pages
   - files
 exclude:
+  - scripts
+  - README.md
+  - _posts
+  - _talks
+  - _teaching
+  - _drafts
+  - markdown_generator
+  - talkmap
+  - talkmap.ipynb
+  - talkmap_out.ipynb
+  - talkmap.py
+  - _pages/cv-json.md
+  - _pages/terms.md
+  - _pages/teaching.html
+  - _pages/talks.html
+  - _pages/talkmap.html
+  - _pages/non-menu-page.md
+  - _pages/tag-archive.html
+  - _pages/markdown.md
+  - _pages/collection-archive.html
+  - _pages/page-archive.html
+  - _pages/category-archive.html
+  - _pages/archive-layout-with-content.md
+  - _pages/year-archive.html
   - "*.sublime-project"
   - "*.sublime-workspace"
   - .asset-cache

@@ -1,64 +1,29 @@
 ---
-layout: archive
+layout: "single"
 title: "CV"
-permalink: /cv/
+permalink: "/cv/"
 author_profile: true
-redirect_from:
-  - /resume
+redirect_from: ["/resume/"]
 ---
 
-{% include base_path %}
+## Education
 
-Education
-======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+**Ph.D. Student — Shanghai University**
 
-Work experience
-======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+## Research Interests
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+- Speech and audio intelligence: keyword spotting, speaker recognition, speech bandwidth extension, and speech language models.
+- Embodied audio: acoustic simulation and geometry-aware acoustic transfer functions.
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+## Curriculum Vitae
 
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+For my detailed academic background and CV, please [contact me by email](mailto:aizhiqi-work@shu.edu.cn?subject=CV%20request).
+
+## Publications
+
+See my [publications page](/publications/) and [Google Scholar profile](https://scholar.google.com/citations?user=xQsSstkAAAAJ&hl=en).
+
+## Research Software
+
+- [Acoustic Agent](https://github.com/aizhiqi-work/acoustic-agent): indoor acoustic simulation and room impulse response generation.
+- [Mesh2ATF](https://github.com/aizhiqi-work/mesh2atf): device geometry and multichannel acoustic transfer functions.
