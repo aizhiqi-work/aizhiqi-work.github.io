@@ -8,11 +8,15 @@ redirect_from: ["/resume/"]
 
 ## Education
 
-**Ph.D. Student — Shanghai University**
+{% include education-cards.html %}
+
+<h2 id="honors-awards">Honors &amp; Awards</h2>
+
+{% include award-cards.html %}
 
 ## Research Interests
 
-- Speech and audio intelligence: keyword spotting, speaker recognition, speech bandwidth extension, and speech language models.
+- Speech and audio intelligence: keyword spotting, speaker recognition, text-to-speech synthesis, speech bandwidth extension, and speech language models.
 - Embodied audio: acoustic simulation and geometry-aware acoustic transfer functions.
 
 ## Curriculum Vitae

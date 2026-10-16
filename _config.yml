@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-site_theme               : "default"
+site_theme               : "light"
 title                    : "Zhiqi Ai"
 title_separator          : "-"
 name                     : &name "Zhiqi Ai"
@@ -84,6 +84,9 @@ publication_category:
     group: speech
   speaker:
     title: 'Speaker Recognition & Modeling'
+    group: speech
+  tts:
+    title: 'Text-to-Speech Synthesis'
     group: speech
   bwe:
     title: 'Speech Bandwidth Extension'

@@ -6,7 +6,12 @@ excerpt: "From device meshes to multichannel acoustic transfer functions. A geom
 link: "https://github.com/aizhiqi-work/mesh2atf"
 share: false
 comments: false
+authors_html: ""
+summary: "From device meshes to multichannel acoustic transfer functions. A geometry-aware simulation workflow for microphone arrays on devices, robot heads, and smart glasses."
+resource_links: [{"label":"GitHub","url":"https://github.com/aizhiqi-work/mesh2atf"}]
+short_title: "Device acoustics"
 ---
+
 
 From device meshes to multichannel acoustic transfer functions. A geometry-aware simulation workflow for microphone arrays on devices, robot heads, and smart glasses.
 

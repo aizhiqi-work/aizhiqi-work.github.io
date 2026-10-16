@@ -8,13 +8,20 @@ redirect_from: ["/about/","/about.html"]
 
 I am a Ph.D. student at Shanghai University, working on speech and audio intelligence.
 
-My research spans user-defined keyword spotting, speaker recognition, speech bandwidth extension, and speech language models. I also work on embodied audio, with an interest in how environments and device geometry shape the sound we hear.
+My research spans wake-word detection, speaker recognition, speech synthesis, and speech language models.
 
-You can find my papers on [Google Scholar](https://scholar.google.com/citations?user=xQsSstkAAAAJ&hl=en), research code on [GitHub](https://github.com/aizhiqi-work), and academic background on my [CV page](/cv/). Contact: [aizhiqi-work@shu.edu.cn](mailto:aizhiqi-work@shu.edu.cn).
+My current focus is spatial audio simulation and sim-to-real (Sim2Real) transfer, exploring how acoustic simulation can support audio perception in real-world environments.
+
+<div class="profile-actions" markdown="0">
+<a href="https://scholar.google.com/citations?user=xQsSstkAAAAJ&hl=en" target="_blank" rel="noopener noreferrer">Google Scholar ↗</a>
+<a href="https://github.com/aizhiqi-work" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+<a href="/cv/">CV & Background</a>
+<a href="mailto:aizhiqi-work@shu.edu.cn">Email</a>
+</div>
 
 ## Speech & Audio Intelligence
 
-My speech research covers keyword spotting, speaker recognition, speech bandwidth extension, and speech language models. Selected work is listed by research area below; see [Google Scholar](https://scholar.google.com/citations?user=xQsSstkAAAAJ&hl=en) for the full publication list.
+Publications are grouped by research area, including text-to-speech synthesis and current manuscripts.
 
 {% include grouped-publications.html group="speech" %}
 
@@ -24,16 +31,21 @@ Related research resources: [LibriPhrase & GigaPhrase](https://github.com/aizhiq
 
 I work on acoustic simulation to understand how environments and device geometry shape the sound reaching microphones.
 
+<div markdown="0">
 {% for post in site.portfolio %}
-  {% include archive-single.html %}
+{% include work-card.html %}
 {% endfor %}
+</div>
 
-## Background & CV
+<h2 id="background-cv">Background &amp; CV</h2>
 
-- **Ph.D. Student**, Shanghai University.
-- Research interests: speech and audio intelligence, and embodied audio.
+{% include education-cards.html %}
 
-For my detailed academic background and curriculum vitae, please [contact me by email](mailto:aizhiqi-work@shu.edu.cn?subject=CV%20request).
+<p class="cv-actions"><a class="work-link" href="/cv/">View CV</a> <a class="work-link" href="mailto:aizhiqi-work@shu.edu.cn?subject=CV%20request">Request CV ↗</a></p>
+
+<h2 id="honors-awards">Honors &amp; Awards</h2>
+
+{% include award-cards.html %}
 
 ## Interdisciplinary Collaborations
 

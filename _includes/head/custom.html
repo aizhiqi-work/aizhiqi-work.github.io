@@ -18,5 +18,68 @@
 <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 
 <!-- Retain the requested smaller portrait within the native author profile. -->
-<style>.author__avatar img { max-width: 128px; }</style>
+<style>
+.author__avatar img { max-width: 128px; }
+.publication-meta { display: flex; align-items: center; flex-wrap: wrap; gap: 10px; margin: 0 0 10px; }
+.publication-venue { display: inline-flex; align-items: center; gap: 6px; padding: 4px 7px; border-radius: 3px; background: #eeefe8; color: #5b6256; font-size: 12px; line-height: 1.4; }
+.publication-venue.journal { background: #f0e5df; color: #934731; }
+.publication-venue.preprint, .publication-venue.under-review { background: #eceaf0; color: #696075; }
+.publication-short { color: var(--global-text-color-light); font-size: 12px; }
+.publication-meta + .archive__item-title { margin-top: .3em; }
+.publication-venue.project { background: #eaf0f4; color: #536c7d; }
+.work-card-wrap { margin: 0 0 12px; }
+.work-card { padding: 17px 19px 15px; border: 1px solid #e2e7eb; border-radius: 7px; background: #fcfdfe; box-shadow: 0 1px 2px rgba(25, 42, 57, .025); }
+.work-card:hover { border-color: #c7d2dc; }
+.work-card .work-card__title { margin: 0 0 8px; padding: 0; border: 0; font-size: 17px; line-height: 1.5; font-weight: 650; }
+.work-card__title a { color: var(--global-text-color); text-decoration: none !important; }
+.work-card__title a:hover { color: #2f7f93; }
+.work-card .work-card__authors { margin: 0; color: #747e86; font-size: 12px; line-height: 1.75; }
+.work-card__authors strong { color: #414c55; }
+.work-card .work-card__note { margin: 3px 0 0; color: #8a9298; font-size: 10px; }
+.work-card .work-card__summary { margin: 8px 0 0; color: #66727b; font-size: 13px; line-height: 1.7; }
+.work-card__links { display: flex; align-items: center; flex-wrap: wrap; gap: 6px; margin-top: 12px; padding-top: 11px; border-top: 1px solid #edf0f2; }
+.work-link { display: inline-flex; align-items: center; gap: 5px; padding: 3px 8px; border: 1px solid #e4e9ed; border-radius: 4px; color: #42798a !important; background: #f5f8fa; font-size: 11px; line-height: 1.7; text-decoration: none !important; }
+.work-link:hover { border-color: #b6cbd4; background: #edf4f7; }
+.work-link span { color: #84959d; font-size: 10px; }
+.research-group { margin-top: 24px; }
+.research-group > h3 { margin: 0 0 12px; color: #586570; font-size: 16px; font-weight: 600; }
+.profile-actions { display: flex; flex-wrap: wrap; gap: 8px 18px; margin: 21px 0 31px; padding: 12px 0; border-top: 1px solid #edf0f2; border-bottom: 1px solid #edf0f2; font-size: 13px; }
+.profile-actions a { text-decoration: none !important; color: #42798a; }
+.background-card { margin: 15px 0 0; padding: 18px 19px; border: 1px solid #e2e7eb; border-radius: 7px; background: #fcfdfe; }
+.background-card h3 { margin: 12px 0 3px; font-size: 17px; }
+.background-card p { margin: 3px 0; font-size: 14px; }
+.background-card .background-note { margin: 8px 0 14px; color: #747e86; font-size: 12px; }
+.background-list { display: grid; gap: 12px; margin: 15px 0 0; }
+.background-list .background-card { margin: 0; padding: 17px 19px; }
+.background-card__meta { display: flex; align-items: center; flex-wrap: wrap; gap: 8px 12px; }
+.background-card__detail { color: #747e86; font-size: 12px; }
+.background-list h3 { margin: 10px 0 5px; padding: 0; border: 0; font-size: 16px; line-height: 1.5; }
+.background-list .background-school { color: #66727b; font-size: 13px; line-height: 1.7; }
+.background-advisors { margin-top: 10px; }
+.background-advisors p { margin: 3px 0 0; font-size: 12px; line-height: 1.75; }
+.background-card__label { color: #586570; font-weight: 600; }
+.background-affiliation { color: #747e86; }
+.publication-venue.award-champion { background: #f5edda; color: #826626; }
+.award-source { margin-top: 8px; }
+.cv-actions { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 14px; }
+.page__content > p { color: #5e6971; line-height: 1.8; font-size: .9em; }
+html[data-theme="dark"] .work-card, html[data-theme="dark"] .background-card { background: #404649; border-color: #5a646a; }
+html[data-theme="dark"] .work-card__title a, html[data-theme="dark"] .work-card__authors strong { color: #f1f3f4; }
+html[data-theme="dark"] .work-card__summary, html[data-theme="dark"] .work-card__authors, html[data-theme="dark"] .page__content > p { color: #c5cdd1; }
+html[data-theme="dark"] .background-card__detail, html[data-theme="dark"] .background-school, html[data-theme="dark"] .background-affiliation { color: #c5cdd1; }
+html[data-theme="dark"] .background-card__label { color: #e0e5e8; }
+@media (max-width: 600px) {
+  .work-card { padding: 15px 14px 13px; }
+  .work-card .work-card__title { font-size: 15px; }
+  .work-card .work-card__authors { font-size: 11px; }
+  .work-card .work-card__summary { font-size: 12px; }
+  .publication-meta { gap: 8px; }
+  .publication-venue, .publication-short { font-size: 11px; }
+  .work-link { min-height: 30px; font-size: 11px; }
+  .profile-actions { gap: 10px 16px; }
+  .background-list .background-card { padding: 15px 14px; }
+  .background-list h3 { font-size: 15px; }
+  .background-card__detail, .background-list .background-school { font-size: 12px; }
+}
+</style>
 <!-- end custom head snippets -->
