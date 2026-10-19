@@ -1,26 +1,30 @@
 {% include base_path %}
+{% assign card = post %}
+{% if post.publication_permalink %}
+{% assign card = site.publications | where: "permalink", post.publication_permalink | first | default: post %}
+{% endif %}
 {% assign card_heading = 4 %}
 {% if post.collection == 'portfolio' %}{% assign card_heading = 3 %}{% endif %}
-{% assign title_target = post.resource_links[0].url | default: post.link | default: post.url %}
+{% assign title_target = card.resource_links[0].url | default: card.link | default: card.url %}
 <div class="list__item work-card-wrap">
 <article class="archive__item work-card" itemscope itemtype="https://schema.org/CreativeWork">
 <div class="publication-meta">
-{% if post.collection == 'publications' %}
-<span class="publication-venue {{ post.publication_type }}" title="{{ post.venue | escape }}"><strong>{{ post.venue_short | default: post.venue }}</strong>{% if post.publication_year %} <span>{{ post.publication_year }}</span>{% endif %}</span>
+{% if card.collection == 'publications' %}
+<span class="publication-venue {{ card.publication_type }}" title="{{ card.venue | escape }}"><strong>{{ card.venue_short | default: card.venue }}</strong>{% if card.publication_year %} <span>{{ card.publication_year }}</span>{% endif %}</span>
 {% else %}
 <span class="publication-venue project"><strong>Open source</strong></span>
 {% endif %}
-{% if post.short_title %}<span class="publication-short">{{ post.short_title }}</span>{% endif %}
+{% if card.short_title %}<span class="publication-short">{{ card.short_title }}</span>{% endif %}
 </div>
-<h{{ card_heading }} class="archive__item-title work-card__title" itemprop="headline"><a href="{{ title_target }}"{% if title_target contains '://' %} target="_blank" rel="noopener noreferrer"{% endif %}>{{ post.title }}</a></h{{ card_heading }}>
-{% if post.authors_html != empty and post.authors_html %}<p class="work-card__authors">{{ post.authors_html }}</p>{% endif %}
-{% if post.author_note %}<p class="work-card__note">{{ post.author_note }}</p>{% endif %}
-{% if post.summary %}<p class="work-card__summary" itemprop="description">{{ post.summary }}</p>{% endif %}
-<div class="work-card__links" aria-label="Resources for {{ post.short_title | default: post.title | escape }}">
-{% for resource in post.resource_links %}
+<h{{ card_heading }} class="archive__item-title work-card__title" itemprop="headline"><a href="{{ title_target }}"{% if title_target contains '://' %} target="_blank" rel="noopener noreferrer"{% endif %}>{{ card.title }}</a></h{{ card_heading }}>
+{% if card.authors_html != empty and card.authors_html %}<p class="work-card__authors">{{ card.authors_html }}</p>{% endif %}
+{% if card.author_note %}<p class="work-card__note">{{ card.author_note }}</p>{% endif %}
+{% if card.summary %}<p class="work-card__summary" itemprop="description">{{ card.summary }}</p>{% endif %}
+<div class="work-card__links" aria-label="Resources for {{ card.short_title | default: card.title | escape }}">
+{% for resource in card.resource_links %}
 <a class="work-link" href="{{ resource.url }}"{% if resource.url contains '://' %} target="_blank" rel="noopener noreferrer"{% endif %}>{{ resource.label }}{% if resource.url contains '://' %} <span aria-hidden="true">↗</span>{% endif %}</a>
 {% endfor %}
-{% if post.bibtexurl %}<a class="work-link" href="{{ post.bibtexurl }}">BibTeX</a>{% endif %}
+{% if card.bibtexurl %}<a class="work-link" href="{{ card.bibtexurl }}">BibTeX</a>{% endif %}
 </div>
 </article>
 </div>

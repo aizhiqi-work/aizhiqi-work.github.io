@@ -94,6 +94,9 @@ publication_category:
   speechllm:
     title: 'Speech Language Models'
     group: speech
+  acoustics:
+    title: 'Acoustic Simulation'
+    group: embodied
   wireless:
     title: 'Wireless Positioning'
     group: collaborations

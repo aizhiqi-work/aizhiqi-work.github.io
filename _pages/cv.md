@@ -22,12 +22,3 @@ redirect_from: ["/resume/"]
 ## Curriculum Vitae
 
 For my detailed academic background and CV, please [contact me by email](mailto:aizhiqi-work@shu.edu.cn?subject=CV%20request).
-
-## Publications
-
-See my [publications page](/publications/) and [Google Scholar profile](https://scholar.google.com/citations?user=xQsSstkAAAAJ&hl=en).
-
-## Research Software
-
-- [Acoustic Agent](https://github.com/aizhiqi-work/acoustic-agent): indoor acoustic simulation and room impulse response generation.
-- [Mesh2ATF](https://github.com/aizhiqi-work/mesh2atf): device geometry and multichannel acoustic transfer functions.

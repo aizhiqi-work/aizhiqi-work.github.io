@@ -27,6 +27,8 @@ Publications are grouped by research area, including text-to-speech synthesis an
 
 Related research resources: [LibriPhrase & GigaPhrase](https://github.com/aizhiqi-work/GigaPhrase-1000) · [OpenKWS](https://github.com/aizhiqi-work/OpenKWS).
 
+<span id="embodied"></span>
+
 ## Embodied Audio
 
 I work on acoustic simulation to understand how environments and device geometry shape the sound reaching microphones.
