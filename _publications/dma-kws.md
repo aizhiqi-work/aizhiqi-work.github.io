@@ -1,6 +1,8 @@
 ---
 title: "Effective User-Defined Keyword Spotting With Dual-Stage Matching, Multi-Modal Enrollment, and Continual Adaptation"
 collection: "publications"
+pdf_local: "/files/papers/dma-kws.pdf"
+pdfurl: "https://arxiv.org/pdf/2605.22120"
 permalink: "/publication/dma-kws/"
 date: "2026-01-01"
 category: "kws"

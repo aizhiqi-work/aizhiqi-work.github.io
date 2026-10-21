@@ -1,0 +1,20 @@
+<dialog class="paper-reader" id="paper-reader" aria-labelledby="paper-reader-title">
+  <div class="paper-reader__surface">
+  <header class="paper-reader__header">
+    <div class="paper-reader__heading">
+      <p class="paper-reader__eyebrow">Paper reader</p>
+      <h2 id="paper-reader-title">Read PDF</h2>
+    </div>
+    <div class="paper-reader__actions">
+      <a class="paper-reader__action" data-reader-open target="_blank" rel="noopener noreferrer">Open PDF ↗</a>
+      <button class="paper-reader__action" type="button" data-reader-fullscreen hidden>Full screen</button>
+      <button class="paper-reader__close" type="button" data-reader-close aria-label="Close paper reader" autofocus>Close <span aria-hidden="true">×</span></button>
+    </div>
+  </header>
+  <div class="paper-reader__body" aria-busy="false">
+    <p class="paper-reader__status" role="status" data-reader-status hidden>Loading PDF…</p>
+    <iframe class="paper-reader__frame" title="Paper PDF" referrerpolicy="no-referrer" allow="fullscreen"></iframe>
+  </div>
+  <footer class="paper-reader__footer"><span data-reader-source></span><span>Use the PDF toolbar to navigate, zoom, or search.</span></footer>
+  </div>
+</dialog>

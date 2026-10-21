@@ -1,6 +1,7 @@
 ---
 title: "AcousticAgent: A Floorplan-Centric Simulation Platform for Distributed Multi-Room Speech Processing"
 collection: "publications"
+pdf_local: "/files/papers/acoustic-agent.pdf"
 permalink: "/publication/acoustic-agent/"
 date: "2026-10-16"
 category: "acoustics"

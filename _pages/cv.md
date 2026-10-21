@@ -10,6 +10,10 @@ redirect_from: ["/resume/"]
 
 {% include education-cards.html %}
 
+## Internship Experience
+
+{% include experience-cards.html %}
+
 <h2 id="honors-awards">Honors &amp; Awards</h2>
 
 {% include award-cards.html %}

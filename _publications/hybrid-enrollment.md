@@ -1,6 +1,7 @@
 ---
 title: "Stabilizing Short Duration Speaker Verification through Neural Re-scoring with Hybrid Enrollment"
 collection: "publications"
+pdf_local: "/files/papers/hybrid-enrollment.pdf"
 permalink: "/publication/hybrid-enrollment/"
 date: "2026-01-01"
 category: "speaker"

@@ -1,6 +1,7 @@
 ---
 title: "Bridge, Distill, Refine: High-Fidelity One-Step Generation for Multi-Bandwidth Speech Extension"
 collection: "publications"
+pdf_local: "/files/papers/bdr-bwe.pdf"
 permalink: "/publication/bdr-bwe/"
 date: "2026-10-16"
 category: "bwe"

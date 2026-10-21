@@ -1,6 +1,8 @@
 ---
 title: "VoxAging: Continuously Tracking Speaker Aging with a Large-Scale Longitudinal Dataset in English and Mandarin"
 collection: "publications"
+pdf_local: "/files/papers/voxaging.pdf"
+pdfurl: "https://www.isca-archive.org/interspeech_2025/ai25_interspeech.pdf"
 permalink: "/publication/voxaging/"
 date: "2025-01-01"
 category: "speaker"

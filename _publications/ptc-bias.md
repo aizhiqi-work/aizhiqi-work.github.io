@@ -1,6 +1,8 @@
 ---
 title: "PTC-Bias: Phoneme-Level Temporal Competition for Bias Retrieval and Post-Decoding Correction in Speech LLMs"
 collection: "publications"
+pdf_local: "/files/papers/ptc-bias.pdf"
+pdfurl: "https://arxiv.org/pdf/2609.28727"
 permalink: "/publication/ptc-bias/"
 date: "2026-01-01"
 category: "speechllm"

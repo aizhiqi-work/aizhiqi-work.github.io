@@ -1,6 +1,8 @@
 ---
 title: "Dual Data Scaling for Robust Two-Stage User-Defined Keyword Spotting"
 collection: "publications"
+pdf_local: "/files/papers/ds-kws.pdf"
+pdfurl: "https://arxiv.org/pdf/2510.10740"
 permalink: "/publication/ds-kws/"
 date: "2026-01-01"
 category: "kws"

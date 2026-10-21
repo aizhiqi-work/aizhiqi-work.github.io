@@ -1,6 +1,8 @@
 ---
 title: "DDStereo: Efficient Dual Decoder Transformers for Stereo 3D Road Anomaly Detection"
 collection: "publications"
+pdf_local: "/files/papers/ddstereo.pdf"
+pdfurl: "https://arxiv.org/pdf/2606.24805"
 permalink: "/publication/ddstereo/"
 date: "2026-01-01"
 category: "vision"

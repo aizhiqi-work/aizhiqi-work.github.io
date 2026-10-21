@@ -1,6 +1,8 @@
 ---
 title: "Enhanced Fingerprint-Based Positioning With Practical Imperfections: Deep Learning-Based Approaches"
 collection: "publications"
+pdf_local: "/files/papers/wireless-positioning.pdf"
+pdfurl: "https://arxiv.org/pdf/2509.01197"
 permalink: "/publication/wireless-positioning/"
 date: "2026-01-01"
 category: "wireless"

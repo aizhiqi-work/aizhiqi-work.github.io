@@ -1,6 +1,8 @@
 ---
 title: "StereoDETR: Stereo-Based Transformer for 3D Object Detection"
 collection: "publications"
+pdf_local: "/files/papers/stereodetr.pdf"
+pdfurl: "https://arxiv.org/pdf/2511.18788"
 permalink: "/publication/stereodetr/"
 date: "2026-01-01"
 category: "vision"

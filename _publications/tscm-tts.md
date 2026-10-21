@@ -1,6 +1,8 @@
 ---
 title: "Optimizing feature fusion for improved zero-shot adaptation in text-to-speech synthesis"
 collection: "publications"
+pdf_local: "/files/papers/tscm-tts.pdf"
+pdfurl: "https://link.springer.com/content/pdf/10.1186/s13636-024-00351-9.pdf"
 permalink: "/publication/tscm-tts/"
 date: "2024-05-28"
 category: "tts"

@@ -1,6 +1,8 @@
 ---
 title: "Enhancing Open-Set Speaker Identification Through Rapid Tuning With Speaker Reciprocal Points and Negative Sample"
 collection: "publications"
+pdf_local: "/files/papers/srpl.pdf"
+pdfurl: "https://arxiv.org/pdf/2409.15742"
 permalink: "/publication/srpl/"
 date: "2024-01-01"
 category: "speaker"

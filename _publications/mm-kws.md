@@ -1,6 +1,7 @@
 ---
 title: "MM-KWS: Multi-modal Prompts for Multilingual User-defined Keyword Spotting"
 collection: "publications"
+pdf_local: "/files/papers/mm-kws.pdf"
 permalink: "/publication/mm-kws/"
 date: "2024-01-01"
 category: "kws"

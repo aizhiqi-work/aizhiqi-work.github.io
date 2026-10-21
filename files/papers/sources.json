@@ -1,0 +1,123 @@
+{
+  "papers": [
+    {
+      "title": "AcousticAgent: A Floorplan-Centric Simulation Platform for Distributed Multi-Room Speech Processing",
+      "file": "/files/papers/acoustic-agent.pdf",
+      "source": "https://arxiv.org/pdf/2610.22936",
+      "bytes": 16092016,
+      "sha256": "31d2c3a9a8b8d7293d55b8246fcf91e23500f354160e0afdc07bb3182975863d"
+    },
+    {
+      "title": "Bridge, Distill, Refine: High-Fidelity One-Step Generation for Multi-Bandwidth Speech Extension",
+      "file": "/files/papers/bdr-bwe.pdf",
+      "source": "https://arxiv.org/pdf/2610.22910",
+      "bytes": 1671064,
+      "sha256": "c640cf460943ddbbb3d3387139d3e00ad8c036d9f1b40cc078a3d56b06155498"
+    },
+    {
+      "title": "DDStereo: Efficient Dual Decoder Transformers for Stereo 3D Road Anomaly Detection",
+      "file": "/files/papers/ddstereo.pdf",
+      "source": "https://arxiv.org/pdf/2606.24805",
+      "bytes": 21110068,
+      "sha256": "6f238fe7088a31cc3c4dad592bda1f38f91fb6606bdf22c267f5035c29a6fe8d"
+    },
+    {
+      "title": "Effective User-Defined Keyword Spotting With Dual-Stage Matching, Multi-Modal Enrollment, and Continual Adaptation",
+      "file": "/files/papers/dma-kws.pdf",
+      "source": "https://arxiv.org/pdf/2605.22120",
+      "bytes": 15445963,
+      "sha256": "8ef3f47a16bb25b3b7e36de7e1b6c5618dc3c6dc23ba9f2024067b35a0a13f28"
+    },
+    {
+      "title": "Dual Data Scaling for Robust Two-Stage User-Defined Keyword Spotting",
+      "file": "/files/papers/ds-kws.pdf",
+      "source": "https://arxiv.org/pdf/2510.10740",
+      "bytes": 2112624,
+      "sha256": "ee02a91017a97a27aa1ecea90c2eb607c62ba80060d7bf5ed52418ca02178df6"
+    },
+    {
+      "title": "Stabilizing Short Duration Speaker Verification through Neural Re-scoring with Hybrid Enrollment",
+      "file": "/files/papers/hybrid-enrollment.pdf",
+      "source": "https://arxiv.org/pdf/2606.16115",
+      "bytes": 1048675,
+      "sha256": "5a12c02226902fea7ca7a8283a36271cdcfeae305451ad18ba6ec647193007f1"
+    },
+    {
+      "title": "MM-KWS: Multi-modal Prompts for Multilingual User-defined Keyword Spotting",
+      "file": "/files/papers/mm-kws.pdf",
+      "source": "https://www.isca-archive.org/interspeech_2024/ai24_interspeech.pdf",
+      "bytes": 577422,
+      "sha256": "8b94664ffadd7b750d199f90cb321fbc26c32c1a325cd88da0b42c25e37fd5fb"
+    },
+    {
+      "title": "PTC-Bias: Phoneme-Level Temporal Competition for Bias Retrieval and Post-Decoding Correction in Speech LLMs",
+      "file": "/files/papers/ptc-bias.pdf",
+      "source": "https://arxiv.org/pdf/2609.28727",
+      "bytes": 1524972,
+      "sha256": "66943c06edbb8d5f903c88301114bac636970d2995dafff7670fd51f0cc79509"
+    },
+    {
+      "title": "Towards Robust Speaker Recognition against Intrinsic Variation with Foundation Model Few-shot Tuning and Effective Speech Synthesis",
+      "file": "/files/papers/robust-speaker.pdf",
+      "source": "https://www.isca-archive.org/interspeech_2025/chen25_interspeech.pdf",
+      "bytes": 1494976,
+      "sha256": "4523835b2f19dd904f99cc3d16247bda6bf7d9e275ed819f9e923ccc1d4dcdac"
+    },
+    {
+      "title": "Stage-wise Adaptive Label Distribution for Facial Age Estimation",
+      "file": "/files/papers/sa-ldl.pdf",
+      "source": "https://arxiv.org/pdf/2509.00450",
+      "bytes": 1948859,
+      "sha256": "1b68fbd29cd53f13d3e5a194b01edb0a7a4df939522dffdf6f08391755866cde"
+    },
+    {
+      "title": "Enhancing Open-Set Speaker Identification Through Rapid Tuning With Speaker Reciprocal Points and Negative Sample",
+      "file": "/files/papers/srpl.pdf",
+      "source": "https://arxiv.org/pdf/2409.15742",
+      "bytes": 1481082,
+      "sha256": "cd66149e75f41aa8f40018ee2da093da2135289c3d390df21df5bb4325264c47"
+    },
+    {
+      "title": "StableTTS: Towards Efficient Denoising Acoustic Decoder for Text to Speech Synthesis with Consistency Flow Matching",
+      "file": "/files/papers/stabletts.pdf",
+      "source": "https://zhiyongchengreat.github.io/files/StableTTS-12.pdf",
+      "bytes": 259369,
+      "sha256": "6cc4d2edc0a5a63c3000116c36784645d7f78a9a84db2833698ac1076c1a7a65"
+    },
+    {
+      "title": "StereoDETR: Stereo-Based Transformer for 3D Object Detection",
+      "file": "/files/papers/stereodetr.pdf",
+      "source": "https://arxiv.org/pdf/2511.18788",
+      "bytes": 16954282,
+      "sha256": "83f71a5349695e7abc69216829b4592a1156c227d58cf11c176630cee5c3139e"
+    },
+    {
+      "title": "StyleFusion TTS: Multimodal Style-Control and Enhanced Feature Fusion for Zero-Shot Text-to-Speech Synthesis",
+      "file": "/files/papers/stylefusion-tts.pdf",
+      "source": "https://arxiv.org/pdf/2409.15741",
+      "bytes": 4196732,
+      "sha256": "db33952e059a9126ba07dddf58a6e6c9dd1c792f975fb642600313aaf2a43e66"
+    },
+    {
+      "title": "Optimizing feature fusion for improved zero-shot adaptation in text-to-speech synthesis",
+      "file": "/files/papers/tscm-tts.pdf",
+      "source": "https://link.springer.com/content/pdf/10.1186/s13636-024-00351-9.pdf",
+      "bytes": 2931126,
+      "sha256": "36d8db30d5152e0624f6aa6034087c134f88efe7344a8862c4114631a0a5038d"
+    },
+    {
+      "title": "VoxAging: Continuously Tracking Speaker Aging with a Large-Scale Longitudinal Dataset in English and Mandarin",
+      "file": "/files/papers/voxaging.pdf",
+      "source": "https://www.isca-archive.org/interspeech_2025/ai25_interspeech.pdf",
+      "bytes": 1929217,
+      "sha256": "64a58c303df73ff039e35c79f78c5ea6160867b8e699b13989b8aed0791575e5"
+    },
+    {
+      "title": "Enhanced Fingerprint-Based Positioning With Practical Imperfections: Deep Learning-Based Approaches",
+      "file": "/files/papers/wireless-positioning.pdf",
+      "source": "https://arxiv.org/pdf/2509.01197",
+      "bytes": 5717804,
+      "sha256": "11d23d993c7a9a48a10158f14f419fd8b9b73638f22e7c93bfd8c6f558a03b86"
+    }
+  ]
+}

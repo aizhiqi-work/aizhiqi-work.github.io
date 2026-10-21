@@ -1,6 +1,8 @@
 ---
 title: "StableTTS: Towards Efficient Denoising Acoustic Decoder for Text to Speech Synthesis with Consistency Flow Matching"
 collection: "publications"
+pdf_local: "/files/papers/stabletts.pdf"
+pdfurl: "https://zhiyongchengreat.github.io/files/StableTTS-12.pdf"
 permalink: "/publication/stabletts/"
 date: "2025-04-06"
 category: "tts"

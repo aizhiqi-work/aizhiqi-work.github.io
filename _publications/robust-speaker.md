@@ -1,6 +1,7 @@
 ---
 title: "Towards Robust Speaker Recognition against Intrinsic Variation with Foundation Model Few-shot Tuning and Effective Speech Synthesis"
 collection: "publications"
+pdf_local: "/files/papers/robust-speaker.pdf"
 permalink: "/publication/robust-speaker/"
 date: "2025-01-01"
 category: "speaker"

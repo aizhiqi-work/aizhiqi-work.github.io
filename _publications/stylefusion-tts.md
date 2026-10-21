@@ -1,6 +1,8 @@
 ---
 title: "StyleFusion TTS: Multimodal Style-Control and Enhanced Feature Fusion for Zero-Shot Text-to-Speech Synthesis"
 collection: "publications"
+pdf_local: "/files/papers/stylefusion-tts.pdf"
+pdfurl: "https://arxiv.org/pdf/2409.15741"
 permalink: "/publication/stylefusion-tts/"
 date: "2024-11-03"
 category: "tts"

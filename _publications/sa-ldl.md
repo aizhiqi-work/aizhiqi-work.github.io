@@ -1,6 +1,7 @@
 ---
 title: "Stage-wise Adaptive Label Distribution for Facial Age Estimation"
 collection: "publications"
+pdf_local: "/files/papers/sa-ldl.pdf"
 permalink: "/publication/sa-ldl/"
 date: "2025-08-30"
 category: "vision"
